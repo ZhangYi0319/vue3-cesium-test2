@@ -1,0 +1,20 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "playwright.config.*",
+    "src/**/*.d.ts",
+    "./node_modules/cesium/Source/**/*.d.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node"
+    ]
+  },
+  "globals": {
+    "Cesium": true
+  }
+}

@@ -1,0 +1,50 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+
+  font-weight: normal;
+}
+
+canvas {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cesium-widget-credits {
+  /* cesium隐藏logo图标 */
+  display: none !important;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
